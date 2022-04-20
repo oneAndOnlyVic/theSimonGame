@@ -1,0 +1,84 @@
+body{
+   text-align: center;
+   color: white;
+   background-color: rgb(63, 5, 60);
+  font-family: 'minecraftmedium';
+  
+
+}
+
+.container{
+    text-align: center;
+
+}
+
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20%;
+    border: 4px solid black ;
+}
+
+.one
+{
+  background-color: green;
+}
+.two{
+   background-color: red;
+}
+.three{
+   background-color: yellow;
+}
+.four{
+   background-color: purple;
+}
+
+.blink{
+   opacity: 0.2;
+}
+.wrong{
+   background-color: red;
+}
+
+@font-face {
+   font-family: 'vt323regular';
+   src: url('webfontkit-20220321-064507/vt323-regular-webfont.woff2') format('woff2'),
+        url('webfontkit-20220321-064507/vt323-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'minecraftmedium';
+   src: url('webfontkit-20220321-065821/minecraft-webfont.woff2') format('woff2'),
+        url('webfontkit-20220321-065821/minecraft-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@media(max-width: 700px) {
+
+   body{
+      font-size: 0.7rem;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      
+   }
+   .box{
+      width: 100px;
+      height: 100px;
+      flex: 1;
+      
+     
+   }
+}
